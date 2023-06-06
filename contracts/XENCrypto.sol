@@ -35,7 +35,7 @@ contract XENCrypto is Context, IRankedMintingToken, IStakingToken, IBurnableToke
 
     // PUBLIC CONSTANTS
 
-    uint256 public constant SECONDS_IN_DAY = 3_600 * 24;
+    uint256 public constant SECONDS_IN_DAY = 60; // 3_600 * 24;
     uint256 public constant DAYS_IN_YEAR = 365;
 
     uint256 public constant GENESIS_RANK = 1;

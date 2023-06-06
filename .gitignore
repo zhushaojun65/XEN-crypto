@@ -28,3 +28,6 @@ nohup.out
 
 coverage.json
 coverage/
+
+**/artifacts/**
+.deps/
